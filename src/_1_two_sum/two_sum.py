@@ -9,11 +9,10 @@ class Solution:
         answer: List[int] = [0, 1]
 
         for i, n in enumerate(nums):
-            diff = target - n
-            idx = storage.get(diff)
+            idx = storage.get(n)
 
             if idx is None:
-                storage[diff] = i
+                storage[target - n] = i
             else:
                 answer = [idx, i]
                 break
