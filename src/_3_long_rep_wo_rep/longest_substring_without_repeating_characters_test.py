@@ -39,6 +39,15 @@ class MyTestCase(unittest.TestCase):
 
         self.assertEqual(output, actual)
 
+    def test_5(self):
+        solution = longest_substring_without_repeating_characters.Solution()
+
+        input_1: str = "bbtablud"
+        output: int = 6
+        actual: int = solution.lengthOfLongestSubstring(input_1)
+
+        self.assertEqual(output, actual)
+
 
 if __name__ == '__main__':
     unittest.main()

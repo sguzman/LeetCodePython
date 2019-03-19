@@ -11,7 +11,7 @@ class Solution:
             if last_seen.get(c) is None or start_idx > last_seen[c]:
                 global_sum = max(i - start_idx + 1, global_sum)
             elif start_idx <= last_seen[c]:
-                start_idx += last_seen[c] + 1
+                start_idx = last_seen[c] + 1
 
             last_seen[c] = i
 
