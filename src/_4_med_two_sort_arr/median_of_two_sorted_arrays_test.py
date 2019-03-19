@@ -12,6 +12,16 @@ class MyTestCase(unittest.TestCase):
         actual = solution.findMedianSortedArrays(nums1, nums2)
         self.assertEqual(output, actual)
 
+    def test_2(self):
+        solution = median_of_two_sorted_arrays.Solution()
+        nums1 = [1, 2]
+        nums2 = [3, 4]
+
+        output = 2.5
+        actual = solution.findMedianSortedArrays(nums1, nums2)
+        self.assertEqual(output, actual)
+
+
 
 if __name__ == '__main__':
     unittest.main()
