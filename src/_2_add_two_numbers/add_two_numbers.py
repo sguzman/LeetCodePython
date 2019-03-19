@@ -22,17 +22,27 @@ class Solution:
         l1_idx = l1
         l2_idx = l2
 
-        while l1_idx is not None and l2_idx is not None:
-            local_sum = l1.val + l2.val + carry
+        while l1_idx is not None or l2_idx is not None:
+            base_idx.next = ListNode(0)
+            base_idx = base_idx.next
+
+            local_sum = carry
+            if l1_idx is not None:
+                local_sum += l1_idx.val
+                l1_idx = l1_idx.next
+            if l2_idx is not None:
+                local_sum += l2_idx.val
+                l2_idx = l2_idx.next
+
             if local_sum > 9:
                 carry = 1
-                local_sum = local_sum - 10
+                local_sum -= 10
             else:
                 carry = 0
+
             base_idx.val = local_sum
-            base_idx.next = ListNode(0)
 
-            l1_idx = l1_idx.next
-            l2_idx = l2_idx.next
+        if carry == 1:
+            base_idx.next = ListNode(1)
 
-        return base
+        return base.next
