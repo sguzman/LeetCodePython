@@ -8,8 +8,8 @@ A repository of some LeetCode solutions done in Python
 | # | Title | Premium | Solutions | Difficulty |
 |:-:|:-----:|:-------:|:---------:|:----------:|
 |1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)||[Python](https://github.com/sguzman/LeetCodePython/tree/master/src/_1_two_sum) |Medium|
-|2|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)| ||Medium|
-|3|[Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)| ||Medium|
+|2|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)| |[Python](https://github.com/sguzman/LeetCodePython/tree/master/src/_2_add_two_numbers) |Medium|
+|3|[Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)| |[Python](https://github.com/sguzman/LeetCodePython/tree/master/src/_3_long_rep_wo_rep)|Medium|
 |4|[Median of Two Sorted Arrays](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/)| ||Hard|
 |5|[Longest Palindromic Substring](https://oj.leetcode.com/problems/longest-palindromic-substring/)| ||Medium|
 |6|[ZigZag Conversion](https://oj.leetcode.com/problems/zigzag-conversion/)| ||Easy|
