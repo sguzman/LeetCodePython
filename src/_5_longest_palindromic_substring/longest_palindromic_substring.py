@@ -31,8 +31,8 @@ class Solution:
                 else:
                     break
 
-                if table[i] > table[max_substr_idx]:
-                    max_substr_idx = i
+            if table[i] > table[max_substr_idx]:
+                max_substr_idx = i
 
         half_idx: int = (table[max_substr_idx] - 1) // 2
         left_idx: int = max_substr_idx - half_idx
