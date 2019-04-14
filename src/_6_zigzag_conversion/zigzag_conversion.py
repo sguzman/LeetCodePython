@@ -14,10 +14,10 @@ class Solution:
         i: int = 0
         while i < len(s):
             store.append(s[i])
-            i += (2 * i) - 1
+            i = i + (2 * (n - 1))
 
         # Middle rows
-        for j in range(1, n):
+        for j in range(1, n - 1):
             k: int = j
             column: bool = True
             column_to_diag_offset: int = 2 * (n - j - 1)
@@ -36,6 +36,6 @@ class Solution:
         i = n - 1
         while i < len(s):
             store.append(s[i])
-            i += (2 * i) - 1
+            i = i + (2 * (n - 1))
 
         return ''.join(store)
