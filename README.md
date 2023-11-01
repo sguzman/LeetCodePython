@@ -18,9 +18,9 @@ A repository of some LeetCode solutions done in Python
 |9|[Palindrome Number](https://oj.leetcode.com/problems/palindrome-number/)|[Python](./src/9.palindrome-number.py) |Easy|
 |10|[Regular Expression Matching](https://oj.leetcode.com/problems/regular-expression-matching/)|[Python](./src/10.regular-expression-matching.py) |Hard|
 |11|[Container With Most Water](https://oj.leetcode.com/problems/container-with-most-water/)| [Python](./src/11.container-with-most-water.py)|Medium|
-|12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)| |Medium|
-|13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)| |Easy|
-|14|[Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/)| |Easy|
+|12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)|[Python](./src/12.integer-to-roman.py) |Medium|
+|13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)|[Python](./src/13.roman-to-integer.py) |Easy|
+|14|[Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/)|[Python](./src/14.longest-common-prefix.py) |Easy|
 |15|[3Sum](https://oj.leetcode.com/problems/3sum/)| |Medium|
 |16|[3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/)| |Medium|
 |18|[4Sum](https://oj.leetcode.com/problems/4sum/)| |Medium|
