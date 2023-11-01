@@ -4,6 +4,7 @@
 # [11] Container With Most Water
 #
 
+
 # @lc code=start
 class Solution:
     def maxArea(self, height: List[int]) -> int:
@@ -21,5 +22,6 @@ class Solution:
                 right -= 1
 
         return max_area
-# @lc code=end
 
+
+# @lc code=end

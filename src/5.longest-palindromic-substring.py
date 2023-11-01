@@ -4,6 +4,7 @@
 # [5] Longest Palindromic Substring
 #
 
+
 # @lc code=start
 class Solution:
     def longestPalindrome(self, s: str) -> str:
@@ -11,7 +12,7 @@ class Solution:
             return ""
 
         start = 0  # Start index of the longest palindrome found
-        end = 0    # End index of the longest palindrome found
+        end = 0  # End index of the longest palindrome found
 
         for i in range(len(s)):
             # For odd length palindrome
@@ -36,4 +37,3 @@ class Solution:
 
 
 # @lc code=end
-

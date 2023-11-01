@@ -4,6 +4,7 @@
 # [9] Palindrome Number
 #
 
+
 # @lc code=start
 class Solution:
     def isPalindrome(self, x: int) -> bool:
@@ -16,5 +17,6 @@ class Solution:
             x //= 10
 
         return x == reversed_half or x == reversed_half // 10
-# @lc code=end
 
+
+# @lc code=end

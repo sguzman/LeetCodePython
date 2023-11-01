@@ -4,13 +4,14 @@
 # [6] Zigzag Conversion
 #
 
+
 # @lc code=start
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if numRows == 1 or numRows >= len(s):
             return s
 
-        res = [''] * numRows
+        res = [""] * numRows
         index, step = 0, 1
 
         for char in s:
@@ -21,7 +22,7 @@ class Solution:
                 step = -1
             index += step
 
-        return ''.join(res)
-        
-# @lc code=end
+        return "".join(res)
 
+
+# @lc code=end
